@@ -52,7 +52,7 @@ Ollama-Prism Pro is a sophisticated AI model comparison and analysis platform th
 
 3. **Clone and Set Up Ollama-Prism Pro**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/AbidHasanRafi/ollama-prism-pro.git
    cd ollama-prism-pro
    pip install -r requirements.txt
    ```
