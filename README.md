@@ -1,6 +1,6 @@
 # Ollama-Prism Pro: Advanced Multi-Model AI Comparison Platform
 
-![Ollama-Prism Pro Banner](https://via.placeholder.com/800x200/0d1117/00ff00?text=Ollama-Prism+Pro+-+Intelligent+Multi-Model+AI+Comparison)
+![Ollama-Prism Pro Banner](https://raw.githubusercontent.com/AbidHasanRafi/ollama-prism-pro/main/assets/banner.png)
 
 ## Overview
 
@@ -8,22 +8,22 @@ Ollama-Prism Pro is a sophisticated AI model comparison and analysis platform th
 
 ## Key Features
 
-### 🚀 Multi-Model Parallel Processing
+### Multi-Model Parallel Processing
 - **Simultaneous Querying**: Submit prompts to up to 6 different Ollama models at once
 - **Real-time Performance Metrics**: Track response times, token counts, and efficiency ratings
 - **Side-by-Side Comparison**: Tabbed interface for easy model output comparison
 
-### 🔍 Thinking Process Visualization
+### Thinking Process Visualization
 - **Internal Reasoning Exposure**: Extract and display models' `<think>` tag content
 - **Transparent AI Analysis**: Understand how different models approach problems
 - **Learning Tool**: Study AI reasoning patterns and decision-making processes
 
-### 🧠 Intelligent Consensus Engineering
+### Intelligent Consensus Engineering
 - **Response Synthesis**: Automatically combine the best elements of all model outputs
 - **Error Correction**: Identify and resolve contradictions or inaccuracies
 - **Quality Enhancement**: Generate responses typically 30-40% more comprehensive than individual models
 
-### ⚙️ Advanced Parameter Control
+### Advanced Parameter Control
 - **Precision Tuning**: Adjust temperature, max tokens, and top-p settings
 - **Model-Specific Optimization**: Fine-tune parameters for different use cases
 - **Performance Benchmarking**: Test how parameter changes affect output quality
@@ -68,7 +68,7 @@ Ollama-Prism Pro is a sophisticated AI model comparison and analysis platform th
 ## Comprehensive Usage Guide
 
 ### Initial Setup Interface
-![Base Application Interface](https://via.placeholder.com/800x450/0d1117/00ff00?text=Ollama-Prism+Pro+Initial+Interface)
+![Base Application Interface](https://raw.githubusercontent.com/AbidHasanRafi/ollama-prism-pro/main/assets/banner.png)
 
 When you first launch Ollama-Prism Pro, you'll see:
 
@@ -78,7 +78,7 @@ When you first launch Ollama-Prism Pro, you'll see:
 4. **System Controls**: Options to clear chat or export history
 
 ### Submitting Queries and Processing
-![Query Processing Interface](https://via.placeholder.com/800x450/0d1117/00ff00?text=Multi-Model+Query+Processing)
+![Query Processing Interface](https://raw.githubusercontent.com/AbidHasanRafi/ollama-prism-pro/main/assets/query.png)
 
 When you submit a prompt:
 
@@ -88,7 +88,7 @@ When you submit a prompt:
 4. **Thinking Extraction**: Models' internal reasoning is captured where available
 
 ### Analyzing Thinking Processes
-![Thinking Process Analysis](https://via.placeholder.com/800x450/0d1117/00ff00?text=Model+Thinking+Process+Analysis)
+![Thinking Process Analysis](https://raw.githubusercontent.com/AbidHasanRafi/ollama-prism-pro/main/assets/thinking.png)
 
 For models that support thinking tags (`<think>...</think>`):
 
@@ -98,7 +98,7 @@ For models that support thinking tags (`<think>...</think>`):
 4. **Quality Assessment**: Evaluate which reasoning processes yield better results
 
 ### Engineered Consensus Response
-![Engineered Response Output](https://via.placeholder.com/800x450/0d1117/00ff00?text=Engineered+Consensus+Response)
+![Engineered Response Output](https://raw.githubusercontent.com/AbidHasanRafi/ollama-prism-pro/main/assets/engineered-output.png)
 
 After all models complete processing:
 
@@ -188,20 +188,6 @@ ollama-prism-pro/
 └── requirements.txt        # Python dependencies
 ```
 
-## Frequently Asked Questions
-
-### Q: Why does the engineered response take longer to generate?
-A: The system must first process all individual model responses, then generate a synthesis prompt, and finally create the optimized response. This additional processing typically adds 20-30% to the total response time but delivers significantly better quality.
-
-### Q: Can I use my own custom Ollama models?
-A: Yes, Ollama-Prism Pro works with any model available in your local Ollama installation. Simply ensure the model is downloaded and use its exact name in the model selection interface.
-
-### Q: How much system resources does this require?
-A: Resource usage depends on the number and size of models used. For 2-3 medium-sized models, 8GB RAM is sufficient. For 4-6 larger models, 16GB RAM is recommended.
-
-### Q: Can I export the comparison results?
-A: Yes, use the "Export History" button in the sidebar to save your interaction history, including all model responses and the engineered consensus.
-
 ## Troubleshooting
 
 ### Common Issues and Solutions
@@ -219,10 +205,6 @@ A: Yes, use the "Export History" button in the sidebar to save your interaction 
    - Check that all dependencies are installed: `pip install -r requirements.txt`
    - Ensure port 8501 is available
 
-## Contributing
-
-We welcome contributions to Ollama-Prism Pro! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on how to submit pull requests, report issues, or suggest new features.
-
 ## License
 
 Ollama-Prism Pro is released under the MIT License. See [LICENSE](LICENSE) for details.
@@ -232,11 +214,3 @@ Ollama-Prism Pro is released under the MIT License. See [LICENSE](LICENSE) for d
 - Built with [Streamlit](https://streamlit.io), an amazing framework for building data apps
 - Powered by [Ollama](https://ollama.ai), which makes running large language models locally accessible
 - Inspired by the AI research community's need for better model comparison tools
-
-## Support
-
-For support, questions, or suggestions:
-1. Check the [FAQ](#frequently-asked-questions) section above
-2. Review existing issues on our GitHub repository
-3. Open a new issue with detailed information about your problem
-4. Join our community discussions on Discord (link available in repository)
